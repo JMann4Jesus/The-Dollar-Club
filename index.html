@@ -15,17 +15,43 @@
       background-image: url("https://www.pngkey.com/png/full/19-195635_dollar-vector-one-transparent-one-dollar-bill-clipart.png");
       background-repeat: repeat-y;
      background-size: 100%;
+
+     #text { color: white;
    }
   </style>
 </head>
 
 <body>
-
+<div id="text">
  
   
   
   <h1>Welcome to the Dollar Club!</h1>
-  
+<script>
+  var a=78;
+var b=200;
+var c=76;
+
+fill(54, 255, 61);
+rotate(-10);
+rect(a, b, c+149, c-163);
+fill(8, 8, 8);
+textSize(53);
+text("$1", a+84, b-59, c+425, c+14);
+noFill();
+strokeWeight(2);
+ellipse(a+43, b-41, c, c);
+ellipse(a+182, b-41, c, c);
+rotate(10);
+strokeWeight(3);
+fill(8, 8, 8);
+stroke(73, 227, 78);
+line(0, 200, 400, 200);
+
+</script>
+
+
+</div>
 </body>
 
 </html>
