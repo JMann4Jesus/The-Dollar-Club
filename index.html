@@ -24,29 +24,15 @@
 <body>
 <div id="text">
  
+ <canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
   
   
   <h1>Welcome to the Dollar Club!</h1>
 <script>
-  var a=78;
-var b=200;
-var c=76;
-
-fill(54, 255, 61);
-rotate(-10);
-rect(a, b, c+149, c-163);
-fill(8, 8, 8);
-textSize(53);
-text("$1", a+84, b-59, c+425, c+14);
-noFill();
-strokeWeight(2);
-ellipse(a+43, b-41, c, c);
-ellipse(a+182, b-41, c, c);
-rotate(10);
-strokeWeight(3);
-fill(8, 8, 8);
-stroke(73, 227, 78);
-line(0, 200, 400, 200);
+const c =
+  document.getElementById("myCanvas");
+  const ctx = c.getContent("2d");
+  ctx.fillRect(20, 20, 150, 100);
 
 </script>
 
